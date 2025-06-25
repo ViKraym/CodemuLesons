@@ -1,0 +1,45 @@
+body{
+     margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    background-color: rgba(0, 0, 0, 0.369);
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+    width: 20%;
+}
+
+nav {
+    margin: 0;
+    padding: 10px;
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+   margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    margin: 10px 10px 0 0;
+    padding: 5px;
+    background-color: rgb(50, 253, 253);
+}
+
+a {
+    text-decoration: none;
+
+}
+
