@@ -39,7 +39,8 @@ main{
 
 .area, .perimeter {
     text-align: center;
-    width: 30%;
+    font-size: 14pt;
+    max-width: 50%;
     min-height: 20px;
     margin-top: 1%;
     border: 2px solid black;
