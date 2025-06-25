@@ -29,7 +29,7 @@ main{
 
 }
 
-.SSquare{
+.Sfigure{
     display: flex;
     align-items: start;
     flex-direction: column;

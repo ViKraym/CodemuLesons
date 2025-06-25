@@ -38,7 +38,7 @@ const myButtonCircle = document.getElementById('hideButtonCircle');
 const Pi = 3.14;
 
  myButtonCircle.addEventListener("click", function() {
-  // alert();
+
   var inputValueCircleR = Number(numCircleA.value);
   resultAreaCircle.innerText = (Math.pow(inputValueCircleR, 2)) * Pi;
   resultSperimeterCircle.innerText = (Pi*2)*inputValueCircleR;
@@ -47,3 +47,30 @@ const Pi = 3.14;
 
 
 
+const numTriangleA = document.getElementById('numberTriangleA');
+const numTriangleB = document.getElementById('numberTriangleB');
+const numTriangleC = document.getElementById('numberTriangleC');
+
+const myButtonTriangle = document.getElementById('hideButtonTriangle');
+
+const resultAreaTriangle = document.getElementById('areaTriangle');
+
+
+ myButtonTriangle.addEventListener("click", function() {
+  let A = Number(numTriangleA.value);
+  let B = Number(numTriangleB.value);
+  let C = Number(numTriangleC.value);
+  
+  let halfPerimetr = Number((A+B+C)/2);
+  let perimeter = Math.sqrt(halfPerimetr*(halfPerimetr-A)*(halfPerimetr-B)*(halfPerimetr-C));
+
+  if (isNaN(perimeter) || perimeter == 0) {
+    resultAreaTriangle.innerText = "Такого треугольника не существует";
+  } else {
+    
+  resultAreaTriangle.innerText = Number(Math.sqrt(halfPerimetr*(halfPerimetr-A)*(halfPerimetr-B)*(halfPerimetr-C)));
+  }
+
+  
+
+});
