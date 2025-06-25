@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style/main.css">
+     <!-- <script src="/scripts/script1.js"></script>
+      <script src="/scripts/script2.js"></script> -->
+</head>
+<body>
+    <main>
+        <section class="area-perimeter-figure">
+            <h1>Расчитать площадь и периметр квадрата(Square)</h1>
+            <div class="SSquare">
+                
+                <input type="text" placeholder="Чему равна сторона" class="number input-box" id="number">
+                
+                
+            </div>
+            <button class="hideButtonSquare hideButton"  id="hideButtonSquare"  href="#">Расчитать</button>
+            <p>Площадь</p>
+            <div class="area" id="area"></div>
+             <p>Периметр</p>
+            <div class="perimeter" id="perimeter"></div>
+            
+        </section>
+
+          <section class="area-perimeter-figure">
+            <h1>Расчитать площадь и периметр прямоугольника(Rectangle)</h1>
+            <div class="SSquare">
+                
+                <input type="text" placeholder="Чему равна сторона a" class="numberRectangleA input-box" id="numberRectangleA">
+                <input type="text" placeholder="Чему равна сторона b" class="numberRectangleB input-box" id="numberRectangleB">
+                
+            </div>
+            <button class="hideButtonRectangle hideButton"  id="hideButtonRectangle"  href="#">Расчитать</button>
+            <p>Площадь</p>
+            <div class="area" id="areaRectangle"></div>
+             <p>Периметр</p>
+            <div class="perimeter" id="perimeterRectangle"></div>
+            
+        </section>
+
+           <section class="area-perimeter-figure">
+            <h1>Расчитать площадь и длину окружности(Circle)</h1>
+            <div class="SSquare">
+                <input type="text" placeholder="Чему равен радиус окружности" class="numberCircleA input-box" id="numberCircleR">   
+            </div>
+            <button class="hideButtonCircle hideButton"  id="hideButtonCircle"  href="#">Расчитать</button>
+            <p>Площадь</p>
+            <div class="area" id="areaCircle"></div>
+             <p>Длина окружности</p>
+            <div class="perimeter" id="perimeterCircle"></div>
+            
+        </section>
+
+
+
+    </main>
+        <script src="scripts/script.js" defer>
+            
+        </script>
+        
+</body>
+</html>
