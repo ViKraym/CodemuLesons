@@ -84,3 +84,21 @@ if (Math.sqrt(maxNumber) == AA) {
 //     }
 // }
 //  })
+
+const A2 = document.getElementById('numberA2');
+const resultRoot12 = document.getElementById('root12');
+const myButton12 = document.getElementById('hideButtonRoot2');
+
+ myButton12.addEventListener("click", function() {
+
+  let delNumber = Number(A2.value);
+  const arr = [];
+  
+  for (let i = 1; i <= delNumber; i++) {
+    if (delNumber % i === 0) {
+      arr.push(i);
+    }
+  }
+  console.log(arr);
+  resultRoot12.innerText = arr;
+});

@@ -10,7 +10,7 @@
      <?php include "header.php"; ?>
     <main>
         <section class="area-perimeter-figure">
-            <h1>Площадь и периметр квадрата(Square)</h1>
+            <h1>1. Площадь и периметр квадрата(Square)</h1>
             <div class="Sfigure">
                 <input type="text" placeholder="a" class="number input-box" id="number">
                 <button class="hideButtonSquare hideButton"  id="hideButtonSquare"  href="#">Расчитать</button>
@@ -24,7 +24,7 @@
         </section>
 
         <section class="area-perimeter-figure">
-            <h1>Площадь и периметр прямоугольника(Rectangle)</h1>
+            <h1>2. Площадь и периметр прямоугольника(Rectangle)</h1>
             <div class="Sfigure">
                 
                 <input type="text" placeholder="a" class="numberRectangleA input-box" id="numberRectangleA">
@@ -40,7 +40,7 @@
         </section>
 
         <section class="area-perimeter-figure">
-            <h1>Площадь и длину окружности(Circle)</h1>
+            <h1>3. Площадь и длину окружности(Circle)</h1>
             <div class="Sfigure">
                 <input type="text" placeholder="r" class="numberCircleA input-box" id="numberCircleR">   
             <button class="hideButtonCircle hideButton"  id="hideButtonCircle"  href="#">Расчитать</button>
@@ -54,7 +54,7 @@
         </section>
 
         <section class="area-perimeter-figure">
-            <h1>Площадь треугольника по трем сторонам(Triangle)</h1>
+            <h1>4. Площадь треугольника по трем сторонам(Triangle)</h1>
             <div class="Sfigure">
                 <input type="text" placeholder="а" class="numberTriangleA input-box" id="numberTriangleA">
                 <input type="text" placeholder="b" class="numberTriangleB input-box" id="numberTriangleB">  

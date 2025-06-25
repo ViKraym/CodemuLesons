@@ -10,7 +10,7 @@
      <?php include "header.php"; ?>
     <main>
         <section class="area-perimeter-figure">
-            <h1>Найти корни квадратного уравнения</h1>
+            <h1>1. Найти корни квадратного уравнения</h1>
             <div class="Sfigure">
                 <input type="text" placeholder="a" class="number input-box" id="numberA">
                 <input type="text" placeholder="b" class="number input-box" id="numberB">
@@ -24,7 +24,7 @@
         </section>
 
         <section class="area-perimeter-figure">
-            <h1>Тройка Пифагора</h1>
+            <h1>2. Тройка Пифагора</h1>
             <div class="Sfigure">
                 <input type="text" placeholder="a" class="number input-box" id="numberA1">
                 <input type="text" placeholder="b" class="number input-box" id="numberB1">
@@ -35,6 +35,18 @@
             <div class="perimeter" id="root1"></div>
             <h6>Числа являются тройкой Пифагора</h6>
             <div class="perimeter" id="root21"></div>
+            
+        </section>
+
+          <section class="area-perimeter-figure">
+            <h1>3. Делители числа</h1>
+            <div class="Sfigure">
+                <input type="text" placeholder="a" class="number input-box" id="numberA2">
+                <button class="hideButtonSquare hideButton"  id="hideButtonRoot2"  href="#">Расчитать</button>
+            </div>
+            <h6>Результат</h6>
+            <div class="perimeter" id="root12"></div>
+
             
         </section>
 
