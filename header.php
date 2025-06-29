@@ -5,8 +5,8 @@
             <ul>
                 <li><a href="/Figure-calculators.php">Калькуляторы фигур на JavaScript</a></li>
                 <li><a href="/Math-calculators.php">Математические калькуляторы на JavaScript</a></li>
-                <li><a href="/Math-calculators.php">Математические</a></li>
-                <li><a href="/Math-calculators.php">Математические</a></li>
+                <li><a href="/gameInNumber.php">Игра "угадай число"</a></li>
+                <li><a href="/gameBox.php">Игра "угадай ячейку"</a></li>
                 <li><a href="/Math-calculators.php">Математические</a></li>
                 <li><a href="/Math-calculators.php">Математические</a></li>
                 <li><a href="/Math-calculators.php">Математические</a></li>

@@ -102,3 +102,95 @@ const myButton12 = document.getElementById('hideButtonRoot2');
   console.log(arr);
   resultRoot12.innerText = arr;
 });
+
+
+
+const numbers4 = document.getElementById('number4');
+const numbers4_1 = document.getElementById('number4_1');
+const resultRoot4 = document.getElementById('root4_1');
+const myButton4 = document.getElementById('hideButtonRoot4');
+
+ myButton4.addEventListener("click", function() {
+
+  let delNumber = Number(numbers4.value);
+  let delNumber1 = Number(numbers4_1.value);
+  const arr4 = [];
+  
+  for (let j = 1; j <= delNumber; j++) {
+    if (delNumber % j === 0 && delNumber1 % j === 0) {
+      arr4.push(j);
+    }
+  }
+  console.log(arr4);
+  resultRoot4.innerText = arr4;
+});
+
+const numbers5 = document.getElementById('number5');
+const numbers5_1 = document.getElementById('number5_1');
+const resultRoot5 = document.getElementById('root5_1');
+const myButton5 = document.getElementById('hideButtonRoot5');
+
+let delNumber = Number(numbers5.value);
+let delNumber1 = Number(numbers5_1.value);
+
+
+
+myButton5.addEventListener("click", function czz() {
+
+let delNumber = Number(numbers5.value);
+let delNumber1 = Number(numbers5_1.value);
+const arr5 = [];
+
+if (delNumber >= delNumber1) {
+  let k = delNumber;
+    for (let j = 1; j <= k; j++) {
+    if (delNumber % j === 0 && delNumber1 % j === 0) {
+    arr5.push(j);
+    }  
+  } 
+} else {
+  k = delNumber1;
+    for (let j = 1; j <= k; j++) {
+    if (delNumber % j === 0 && delNumber1 % j === 0) {
+    arr5.push(j);
+    }  
+}
+}
+resultRoot5.innerText = arr5.at(0);
+});
+
+
+
+
+const numbers6 = document.getElementById('number6');
+const numbers6_1 = document.getElementById('number6_1');
+const resultRoot6 = document.getElementById('root6_1');
+const myButton6 = document.getElementById('hideButtonRoot6');
+
+myButton6.addEventListener('click', function (){
+
+
+  
+});
+
+
+function findLCM() {
+  const num1 = parseInt(document.getElementById("number6").value);
+  const num2 = parseInt(document.getElementById("number6_1").value);
+
+  if (isNaN(num1) || isNaN(num2)) {
+    document.getElementById("root6_1").innerText = "Пожалуйста, введите числа.";
+    return;
+  }
+
+  function gcd(a, b) {
+    while (b) {
+      a %= b;
+      [a, b] = [b, a];
+    }
+    return a;
+  }
+
+  const lcm = (num1 * num2) / gcd(num1, num2);
+  document.getElementById("root6_1").innerText = "Наименьшее общее кратное: " + lcm;
+}

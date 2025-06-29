@@ -50,6 +50,44 @@
             
         </section>
 
+          <section class="area-perimeter-figure">
+            <h1>4. Общие делители чисел</h1>
+            <div class="Sfigure">
+                <input type="text" placeholder="a" class="number input-box" id="number4">
+                <input type="text" placeholder="a" class="number input-box" id="number4_1">
+                <button class="hideButtonSquare hideButton"  id="hideButtonRoot4"  href="#">Расчитать</button>
+            </div>
+            <h6>Результат</h6>
+            <div class="perimeter" id="root4_1"></div>
+
+            
+        </section>
+
+          <section class="area-perimeter-figure">
+            <h1>5.Наибольший общий делитель чисел</h1>
+            <div class="Sfigure">
+                <input type="text" placeholder="a" class="number input-box" id="number5">
+                <input type="text" placeholder="a" class="number input-box" id="number5_1">
+                <button class="hideButtonSquare hideButton"  id="hideButtonRoot5"  href="#">Расчитать</button>
+            </div>
+            <h6>Результат</h6>
+            <div class="perimeter" id="root5_1"></div>
+
+            
+        </section>
+
+            <section class="area-perimeter-figure">
+            <h1>6.Наибольший общий делитель чисел</h1>
+            <div class="Sfigure">
+                <input type="text" placeholder="a" class="number input-box" id="number6">
+                <input type="text" placeholder="a" class="number input-box" id="number6_1">
+                <button class="hideButtonSquare hideButton"  id="hideButtonRoot6" onclick="findLCM()"  href="#">Расчитать</button>
+            </div>
+            <h6>Результат</h6>
+            <div class="perimeter" id="root6_1"></div>
+
+            
+        </section>
     
  
 
